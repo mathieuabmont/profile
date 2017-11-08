@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(240,240,240);
+}
+
+p, li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #7d7d7d;
+  text-align: justify;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #dd5555;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+a {
+  color: rgba(200,200,200,1);
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+}
+
+.fa {
+  font-size: 30px;
+}
+
+.card {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#img-profile {
+  width: 120px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-movie {
+  width: 90px;
+}
+
+.text-padding {
+  padding: 15px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
